@@ -1,6 +1,10 @@
 #include "camera.h"
 #ifndef moviment_HEADER
 #define moviment_HEADER
+
+// Criar uma fonte de luz direcional
+
+
 class cMovimentationHandler {
 public:
 	void setCallBacks(SimpleCamera NewCamera);
@@ -10,7 +14,9 @@ public:
 
 	 static void KeyCallback(GLFWwindow* Window, int Key, int ScanCode, int Action, int Modifers);
 	 static SimpleCamera *Camera;
-	
+
+	 
+
 private:
 	
 };

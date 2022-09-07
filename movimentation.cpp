@@ -1,6 +1,10 @@
 #include "headerfiles/movimentation.h"
 SimpleCamera *cMovimentationHandler::Camera = nullptr;
 
+
+glm::vec3 originalLightDir = glm::vec3(0.0f, 0.0f, -5.0f);
+
+
  void cMovimentationHandler::MouseButtonCallback(GLFWwindow* Window, int Button, int Action, int Modifiers)
 {
 	// std::cout << "Button: " << Button << " Action: " << Action << " Modifiers: " << Modifiers << std::endl;
@@ -49,6 +53,10 @@ SimpleCamera *cMovimentationHandler::Camera = nullptr;
 			Camera->MoveForward(1.0f);
 			break;
 
+		case GLFW_KEY_LEFT_SHIFT:
+			Camera->MoveForward(20.0f);
+			break;
+
 		case GLFW_KEY_S:
 			Camera->MoveForward(-1.0f);
 			break;
@@ -61,6 +69,17 @@ SimpleCamera *cMovimentationHandler::Camera = nullptr;
 			Camera->MoveRight(1.0f);
 			break;
 
+		case GLFW_KEY_LEFT_CONTROL:
+			Camera->setPolygonMode();
+			break;
+
+		case GLFW_KEY_UP:
+			
+			//Camera->Light.Direction = glm::vec3(originalLightDir.x - 0.5f, originalLightDir.y - 1.5f, originalLightDir.z);
+
+		case GLFW_KEY_DOWN:
+
+			//Camera->Light.Direction = glm::vec3(originalLightDir.x - 0.5f, originalLightDir.y - 1.5f, originalLightDir.z);
 		default:
 			break;
 		}

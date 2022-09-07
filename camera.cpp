@@ -8,6 +8,28 @@ void SimpleCamera::MoveForward(float Scale)
 	ForwardScale = Scale;
 }
 
+GLuint SimpleCamera::getPolygonMode()
+{
+	return polygonMode;
+}
+
+
+void SimpleCamera::setPolygonMode()
+{
+
+	if (isWireframe == true)
+	{
+		polygonMode = GL_FILL;
+
+	}else{
+		polygonMode = GL_LINE;
+	}
+	isWireframe = !isWireframe;
+}
+
+
+
+
 void SimpleCamera::MoveRight(float Scale)
 {
 	RightScale = Scale;

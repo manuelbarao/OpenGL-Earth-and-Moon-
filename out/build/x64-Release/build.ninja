@@ -39,7 +39,7 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\Swan\Desktop\Earth$ and$ moon\OpenGL-Earth-and-Moon-\out\build\x64-Release\
+cmake_ninja_workdir = C$:\Users\Swan\Desktop\Projeto$ para$ github\Open-GL-height-map\out\build\x64-Release\
 # =============================================================================
 # Object build statements for EXECUTABLE target BlueMarble
 
@@ -49,49 +49,49 @@ cmake_ninja_workdir = C$:\Users\Swan\Desktop\Earth$ and$ moon\OpenGL-Earth-and-M
 
 build cmake_object_order_depends_target_BlueMarble: phony || CMakeFiles\BlueMarble.dir
 
-build CMakeFiles\BlueMarble.dir\main.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Earth$ and$ moon\OpenGL-Earth-and-Moon-\main.cpp || cmake_object_order_depends_target_BlueMarble
+build CMakeFiles\BlueMarble.dir\main.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Projeto$ para$ github\Open-GL-height-map\main.cpp || cmake_object_order_depends_target_BlueMarble
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
-  INCLUDES = -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glm" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glfw\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glew\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\stb"
+  INCLUDES = -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glm" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glfw\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glew\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\stb"
   OBJECT_DIR = CMakeFiles\BlueMarble.dir
   OBJECT_FILE_DIR = CMakeFiles\BlueMarble.dir
   TARGET_COMPILE_PDB = CMakeFiles\BlueMarble.dir\
   TARGET_PDB = BlueMarble.pdb
 
-build CMakeFiles\BlueMarble.dir\matematica.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Earth$ and$ moon\OpenGL-Earth-and-Moon-\matematica.cpp || cmake_object_order_depends_target_BlueMarble
+build CMakeFiles\BlueMarble.dir\matematica.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Projeto$ para$ github\Open-GL-height-map\matematica.cpp || cmake_object_order_depends_target_BlueMarble
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
-  INCLUDES = -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glm" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glfw\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glew\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\stb"
+  INCLUDES = -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glm" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glfw\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glew\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\stb"
   OBJECT_DIR = CMakeFiles\BlueMarble.dir
   OBJECT_FILE_DIR = CMakeFiles\BlueMarble.dir
   TARGET_COMPILE_PDB = CMakeFiles\BlueMarble.dir\
   TARGET_PDB = BlueMarble.pdb
 
-build CMakeFiles\BlueMarble.dir\windowmanager.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Earth$ and$ moon\OpenGL-Earth-and-Moon-\windowmanager.cpp || cmake_object_order_depends_target_BlueMarble
+build CMakeFiles\BlueMarble.dir\windowmanager.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Projeto$ para$ github\Open-GL-height-map\windowmanager.cpp || cmake_object_order_depends_target_BlueMarble
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
-  INCLUDES = -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glm" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glfw\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glew\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\stb"
+  INCLUDES = -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glm" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glfw\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glew\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\stb"
   OBJECT_DIR = CMakeFiles\BlueMarble.dir
   OBJECT_FILE_DIR = CMakeFiles\BlueMarble.dir
   TARGET_COMPILE_PDB = CMakeFiles\BlueMarble.dir\
   TARGET_PDB = BlueMarble.pdb
 
-build CMakeFiles\BlueMarble.dir\camera.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Earth$ and$ moon\OpenGL-Earth-and-Moon-\camera.cpp || cmake_object_order_depends_target_BlueMarble
+build CMakeFiles\BlueMarble.dir\camera.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Projeto$ para$ github\Open-GL-height-map\camera.cpp || cmake_object_order_depends_target_BlueMarble
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
-  INCLUDES = -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glm" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glfw\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glew\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\stb"
+  INCLUDES = -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glm" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glfw\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glew\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\stb"
   OBJECT_DIR = CMakeFiles\BlueMarble.dir
   OBJECT_FILE_DIR = CMakeFiles\BlueMarble.dir
   TARGET_COMPILE_PDB = CMakeFiles\BlueMarble.dir\
   TARGET_PDB = BlueMarble.pdb
 
-build CMakeFiles\BlueMarble.dir\movimentation.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Earth$ and$ moon\OpenGL-Earth-and-Moon-\movimentation.cpp || cmake_object_order_depends_target_BlueMarble
+build CMakeFiles\BlueMarble.dir\movimentation.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Projeto$ para$ github\Open-GL-height-map\movimentation.cpp || cmake_object_order_depends_target_BlueMarble
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
-  INCLUDES = -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glm" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glfw\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glew\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\stb"
+  INCLUDES = -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glm" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glfw\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glew\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\stb"
   OBJECT_DIR = CMakeFiles\BlueMarble.dir
   OBJECT_FILE_DIR = CMakeFiles\BlueMarble.dir
   TARGET_COMPILE_PDB = CMakeFiles\BlueMarble.dir\
   TARGET_PDB = BlueMarble.pdb
 
-build CMakeFiles\BlueMarble.dir\shaderutils.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Earth$ and$ moon\OpenGL-Earth-and-Moon-\shaderutils.cpp || cmake_object_order_depends_target_BlueMarble
+build CMakeFiles\BlueMarble.dir\shaderutils.cpp.obj: CXX_COMPILER__BlueMarble_RelWithDebInfo C$:\Users\Swan\Desktop\Projeto$ para$ github\Open-GL-height-map\shaderutils.cpp || cmake_object_order_depends_target_BlueMarble
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
-  INCLUDES = -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glm" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glfw\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\glew\include" -I"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\deps\stb"
+  INCLUDES = -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glm" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glfw\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\glew\include" -I"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\deps\stb"
   OBJECT_DIR = CMakeFiles\BlueMarble.dir
   OBJECT_FILE_DIR = CMakeFiles\BlueMarble.dir
   TARGET_COMPILE_PDB = CMakeFiles\BlueMarble.dir\
@@ -109,9 +109,9 @@ build BlueMarble.exe: CXX_EXECUTABLE_LINKER__BlueMarble_RelWithDebInfo CMakeFile
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = glfw3.lib  glew32.lib  opengl32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  LINK_PATH = -LIBPATH:C:\Users\Swan\Desktop\EARTHA~1\OPENGL~1\deps\glfw\LIB-VC~1   -LIBPATH:C:\Users\Swan\Desktop\EARTHA~1\OPENGL~1\deps\glew\lib\Release\x64
+  LINK_PATH = -LIBPATH:C:\Users\Swan\Desktop\PROJET~1\OPEN-G~1\deps\glfw\LIB-VC~1   -LIBPATH:C:\Users\Swan\Desktop\PROJET~1\OPEN-G~1\deps\glew\lib\Release\x64
   OBJECT_DIR = CMakeFiles\BlueMarble.dir
-  POST_BUILD = cmd.exe /C "cd /D "C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy "C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/deps/glew/bin/Release/x64/glew32.dll" "C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release/glew32.dll" && cd /D "C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E create_symlink "C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/shaders" "C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release/shaders" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E create_symlink "C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/textures" "C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release/textures""
+  POST_BUILD = cmd.exe /C "cd /D "C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy "C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/deps/glew/bin/Release/x64/glew32.dll" "C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release/glew32.dll" && cd /D "C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E create_symlink "C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/shaders" "C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release/shaders" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E create_symlink "C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/textures" "C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release/textures""
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\BlueMarble.dir\
   TARGET_FILE = BlueMarble.exe
@@ -123,7 +123,7 @@ build BlueMarble.exe: CXX_EXECUTABLE_LINKER__BlueMarble_RelWithDebInfo CMakeFile
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -134,7 +134,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-" -B"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\out\build\x64-Release""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map" -B"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\out\build\x64-Release""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -152,7 +152,7 @@ build BlueMarble: phony BlueMarble.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release
+# Folder: C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release
 
 build all: phony BlueMarble.exe
 

@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe 
@@ -45,21 +45,21 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7e3c0 && [1/2] Building C object CMakeFiles\cmTC_7e3c0.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_7e3c0.exe
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_86d78 && [1/2] Building C object CMakeFiles\cmTC_86d78.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_86d78.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_41328 && [1/2] Building CXX object CMakeFiles\cmTC_41328.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_41328.exe
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ca16d && [1/2] Building CXX object CMakeFiles\cmTC_ca16d.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_ca16d.exe
 
 
 
