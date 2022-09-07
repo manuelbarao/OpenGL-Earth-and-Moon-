@@ -1,8 +1,6 @@
 
 
-
 # OpenGL Height Map from png image
-
 
 <html>
 <body>
