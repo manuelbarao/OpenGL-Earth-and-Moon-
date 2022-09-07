@@ -4,9 +4,8 @@
 <body>
 <h1>Based on Blue Marble from Thales Sabino OpenGL course for beginners</h1>
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=uyCeIGmpXqg">
-</iframe>
+
+https://www.youtube.com/watch?v=uyCeIGmpXqg
 
 
 <h4>If you can't compile for some reason, please delete "out" folder and try running CMAKE again.</h4>
