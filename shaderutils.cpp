@@ -1,6 +1,6 @@
 #include "headerfiles/shaderutils.h"
-
 #include "deps/stb/stb_image.h"
+
 
 std::string cShadersManager::ReadFile(const char* FilePath)
 {
@@ -97,87 +97,35 @@ GLuint cShadersManager::LoadShaders(const char* VertexShaderFile, const char* Fr
 	return ProgramId;
 }
 
-GLuint cShadersManager::LoadTerrain(const char* TextureFile)
+GLuint cShadersManager::LoadTexture(const char* TextureFile)
 {
-	std::cout << "Carregando terreno " << TextureFile << std::endl;
+	std::cout << "Carregando Textura " << TextureFile << std::endl;
 
 	int TextureWidth = 0;
 	int TextureHeight = 0;
 	int NumberOfComponents = 0;
-	unsigned char* TextureData = stbi_load(TextureFile, &TextureWidth, &TextureHeight, &NumberOfComponents, 0);
+	unsigned char* TextureData = stbi_load(TextureFile, &TextureWidth, &TextureHeight, &NumberOfComponents, 3);
 	assert(TextureData);
 
 	// Gerar o Identifador da Textura
-	GLuint TextureId = 0;
-	//glGenTextures(1, &TextureId); //nao é necessário
-	
-	
-	float yScale = 64.0f / 256.0f, yShift = 16.0f;
-	int rez = 1;
-	unsigned bytePerPixel = NumberOfComponents;
-	for (int i = 0; i < TextureHeight; i++)
-	{
-		for (int j = 0; j < TextureWidth; j++)
-		{
-			unsigned char* pixelOffset = TextureData + (j + TextureWidth * i) * bytePerPixel;
-			unsigned char y = pixelOffset[0];
+	GLuint TextureId;
+	glGenTextures(1, &TextureId);
 
-			// vertex
-			vertices.push_back(-TextureHeight / 2.0f + TextureHeight * i / (float)TextureHeight);   // vx
-			vertices.push_back((int)y * yScale - yShift);   // vy
-			vertices.push_back(-TextureWidth / 2.0f + TextureWidth * j / (float)TextureWidth);   // vz
-		}
-	}
-	std::cout << "Loaded " << vertices.size() / 3 << " vertices" << std::endl;
+	// Habilita a textura para ser modificada
+	glBindTexture(GL_TEXTURE_2D, TextureId);
 
-    
-	
-	
-	for (unsigned i = 0; i < TextureHeight - 1; i += rez)
-	{
-		for (unsigned j = 0; j < TextureWidth; j += rez)
-		{
-			for (unsigned k = 0; k < 2; k++)
-			{
-				indices.push_back(j + TextureWidth * (i + k * rez));
-			}
-		}
-	}
-	std::cout << "Loaded " << indices.size() << " indices" << std::endl;
+	// Copia a textura para a memória da GPU
+	GLint Level = 0;
+	GLint Border = 0;
+	glTexImage2D(GL_TEXTURE_2D, Level, GL_RGB, TextureWidth, TextureHeight, Border, GL_RGB, GL_UNSIGNED_BYTE, TextureData);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+	glGenerateMipmap(GL_TEXTURE_2D);
 
+	glBindTexture(GL_TEXTURE_2D, 0);
 
-	const int numStrips = (TextureHeight - 1) / rez;
-	const int numTrisPerStrip = (TextureWidth / rez) * 2 - 2;
-	std::cout << "Created lattice of " << numStrips << " strips with " << numTrisPerStrip << " triangles each" << std::endl;
-	std::cout << "Created " << numStrips * numTrisPerStrip << " triangles total" << std::endl;
-	calculatednumStrips = numStrips;
-	calculatednumTrisPerStrip = numTrisPerStrip;
 	stbi_image_free(TextureData);
 	return TextureId;
-}
-
-int cShadersManager::getcalculatednumStrips()
-{
-	return calculatednumStrips;
-}
-
-int cShadersManager::getcalculatednumvertices()
-{
-	return calculatednumvertices;
-}
-
-std::vector<float> cShadersManager::getVertices()
-{
-	return vertices;
-
-}
-
-std::vector<unsigned> cShadersManager::getIndices()
-{
-	return indices;
-}
-
-int cShadersManager::getcalculatednumTrisPerStrip()
-{
-	return calculatednumTrisPerStrip;
 }

@@ -1353,8 +1353,7 @@ typedef void (* GLFWwindowmaximizefun)(GLFWwindow*,int);
  *  @param[in] height The new height, in pixels, of the framebuffer.
  *
  *  @sa @ref window_fbsize
- *  @sa @ref 
- * 
+ *  @sa @ref glfwSetFramebufferSizeCallback
  *
  *  @since Added in version 3.0.
  *

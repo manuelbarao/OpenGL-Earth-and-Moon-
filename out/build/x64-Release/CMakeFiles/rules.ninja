@@ -47,7 +47,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map" -B"C:\Users\Swan\Desktop\Projeto para github\Open-GL-height-map\out\build\x64-Release"
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-" -B"C:\Users\Swan\Desktop\Earth and moon\OpenGL-Earth-and-Moon-\out\build\x64-Release"
   description = Re-running CMake...
   generator = 1
 

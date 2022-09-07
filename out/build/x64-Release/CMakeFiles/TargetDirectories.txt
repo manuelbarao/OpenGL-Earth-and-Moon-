@@ -1,3 +1,3 @@
-C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release/CMakeFiles/BlueMarble.dir
-C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release/CMakeFiles/edit_cache.dir
-C:/Users/Swan/Desktop/Projeto para github/Open-GL-height-map/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
+C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release/CMakeFiles/BlueMarble.dir
+C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release/CMakeFiles/edit_cache.dir
+C:/Users/Swan/Desktop/Earth and moon/OpenGL-Earth-and-Moon-/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
