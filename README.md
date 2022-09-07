@@ -2,6 +2,9 @@
 
 <<<<<<< HEAD
 # OpenGL-Earth-and-Moon-
+=======
+# OpenGL Height Map from png image
+>>>>>>> parent of e5c9714 (Merge branch 'main' of https://github.com/manuelbarao/OpenGL-Earth-and-Moon-)
 
 <html>
 <body>
