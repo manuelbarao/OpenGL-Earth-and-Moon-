@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Swan/Desktop/Blue Marble
+# Install script for directory: C:/Users/Swan/Desktop/gitbug/OpenGL-Earth-and-Moon-
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Swan/Desktop/Blue marble/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Swan/Desktop/gitbug/OpenGL-Earth-and-Moon-/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Swan/Desktop/Blue Marble/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Swan/Desktop/gitbug/OpenGL-Earth-and-Moon-/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

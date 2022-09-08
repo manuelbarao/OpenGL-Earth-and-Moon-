@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\headerfiles",
-    "\\shaders"
+    ""
   ],
-  "SelectedNode": "\\CMakeSettings.json",
+  "SelectedNode": "\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
