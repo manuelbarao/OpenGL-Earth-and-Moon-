@@ -1,0 +1,12 @@
+# ninja log v5
+1	607	6839306664484279	CMakeFiles/BluMarble.dir/main.cpp.obj	74e7fc5679464907
+1	152	6840288271426401	build.ninja	94a60e2433692b4e
+607	972	6839306667494242	BluMarble.exe	a9b1dd877af91e3c
+2	1022	6840287167778151	CMakeFiles/BlueMarble.dir/main.cpp.obj	22acf97fd10bfa72
+1022	1232	6840287168878378	BlueMarble.exe	2ed91e0bcb6aadfa
+15	1326	6840286246392849	CMakeFiles/BlueMarble.dir/windowmanager.cpp.obj	5a98c19b9f52a71c
+0	8	0	clean	8c45b54705a541e8
+12	1324	6840286246372843	CMakeFiles/BlueMarble.dir/camera.cpp.obj	af50595b9be7ad5d
+18	1366	6840286246852949	CMakeFiles/BlueMarble.dir/shaderutils.cpp.obj	aca9ed300f507cf7
+9	1328	6840286246382840	CMakeFiles/BlueMarble.dir/movimentation.cpp.obj	cac8d018c1b6c42a
+1	1330	6840286246432868	CMakeFiles/BlueMarble.dir/matematica.cpp.obj	fd2384024a0daaae
